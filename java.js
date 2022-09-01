@@ -40,3 +40,40 @@ switch (usuario) {
         console.log("usuario desconhecido")
         break;
 }
+
+// utilizando o (for)//
+// vamos contar do número 1 até o 5 (excluindo o 5)//
+
+// criamos uma variável dentro do comando for//
+
+//for (let conta = 0; conta < 5; conta++) {
+//console.log(conta)
+//console.log("o numero é", conta)
+
+// fazer o mesmo exercício acima utilizando o comando while//
+
+//let conta = 1
+//while (conta < 5) {
+//        console.log(conta)
+//    conta++
+//}
+
+// comando while.. iff//
+//descobrir os impares até 10//
+
+let conta = 1
+while (conta < 10) {
+       if (conta % 2 !== 0){
+        console.log(conta)
+        
+       }    
+       conta++ //conta++ tem que ficar fora do if mas dentro do while//
+    
+}
+
+
+
+
+
+
+
