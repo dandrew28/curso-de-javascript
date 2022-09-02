@@ -61,19 +61,84 @@ switch (usuario) {
 // comando while.. iff//
 //descobrir os impares até 10//
 
-let conta = 1
-while (conta < 10) {
-       if (conta % 2 !== 0){
-        console.log(conta)
+//let conta = 1
+//while (conta < 10) {
+//       if (conta % 2 !== 0){
+//        console.log(conta)
+//        
+//       }    
+//       conta++ //conta++ tem que ficar fora do if mas dentro do while//
+    //
+//}
+
+//vamos contar de 1 até 100 utilizando o operador (FOR)//
+
+// vamos utilizar o for e colocar todas as condições dentro dele//
+// a criação de uma variável também se dá dentro do operador for//
+
+//for (let valor = 1; valor <= 100; valor++) {
+  //  console.log(valor)
+//}
+
+// agora pegaremos apenas os valores impares//
+
+//for(let numero = 1; numero <= 100; numero++) {
+  //  if(numero % 2 !== 0) { //utilizamos a confição if
+    //    console.log(numero)
+    //}
+//}
+
+// agora pegaremos apenas os valores ímpares usando o comando while//
+
+// obs: temos que atribuir uma variável FORA do comando while//
+
+//let valor = 1
+//while (valor <= 100) {
+   // if (valor % 2 !== 0) {
+       // console.log(valor)
         
-       }    
-       conta++ //conta++ tem que ficar fora do if mas dentro do while//
-    
+   // }
+    //valor++     //valor++ fica FORA do "if"//
+//}
+
+// agora vamos contar de 1 até 50 usando o "do.. while"
+// o comando "do" abre com CHAVES//
+let numero = 1
+
+do {
+     console.log("posição", numero)
+     numero++
+}   while (numero <= 50)
+
+// comando 'for .. in' e 'for.. of'
+
+// vamos criar uma const
+
+const pessoa = {
+    nome:'André', 
+    idade: 44
+}
+
+for(let valor in pessoa) {
+    console.log(valor)
+    console.log (valor,pessoa)
 }
 
 
+// vamos criar um array com várias cores
+
+//const cores = ['azul', 'verde', 'amarelo', 'roxo']
+//for(let ordem in cores) {
+  //  console.log(ordem,cores[ordem])
+//}
 
 
+// para colocar na ordem inversa usamos o for of//
 
+const cores = ['azul', 'verde', 'amarelo', 'roxo']
+for (let cor of cores) {
+    console.log(cores,cor[cores])
+    
+}
 
 
