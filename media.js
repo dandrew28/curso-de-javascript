@@ -7,16 +7,16 @@
 80 - 89 = B
 90 - 100 = A */
 
-const array = [70,70,80]
+const array = [100,70,80]
 
 console.log (mediaDoAluno(array))
 
 function mediaDoAluno(notas) {
-    const soma = 0;
-    for (let nota of notas) {
-        soma += nota
-    }
-const media = soma / (notas.length);
+    let soma = 0;                            
+    for (let nota of notas) {               
+        soma += nota                        
+    }                                       
+const media = soma / (notas.length);        
 if (media >= 0 && media <= 59)
 return "F"
 if (media >= 60 && media <= 69)
@@ -29,3 +29,11 @@ if (media >= 90 && media <= 100)
 return "A"
 
 }
+
+                     // DECORAR//
+/* function media(notas) {
+/* let soma = 0;                           // todo esse bloco serve
+    for (let nota of notas) {               // para calcular a
+        soma += nota                        // média
+    }                                       // das
+ const media = soma / (notas.length);     // Notas */
