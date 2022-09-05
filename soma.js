@@ -7,12 +7,14 @@
 // por último somar os dois
 soma(10);
 function soma(numero) {
-
-for (let i=0; i <= numero; i++) {
-    if (numero % 3 === 0)
-    console.log (i)
-    
+    let multiploDeTres = 0   // criamos uma variavel para os múltiplos de 3
+    let multiploDeCinco = 0   // e criamos uma variável para os múltiplos de 5
+    for (i = 0; i <= numero; i++) {
+    if (i % 3 === 0)
+    multiploDeTres += i;
+    if (i % 5 === 0)
+    multiploDeCinco += i;
 }
-
+console.log (multiploDeTres + multiploDeCinco)
 }
 
