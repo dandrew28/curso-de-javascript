@@ -31,9 +31,12 @@ return "A"
 }
 
                      // DECORAR//
-/* function media(notas) {
+/* function mediaSimples(notas) {
 /* let soma = 0;                           // todo esse bloco serve
     for (let nota of notas) {               // para calcular a
         soma += nota                        // média
     }                                       // das
  const media = soma / (notas.length);     // Notas */
+                        // length = para contar o número de notas
+
+                        
