@@ -11,5 +11,5 @@ const filme = {
         console.log ("Homen de aço")
     }
 }
-const clone = Object.assign ({}, filme)
+const clone = Object.assign ({}, filme)   // comando principal para clonar(Object.assign)
 console.log (clone)
