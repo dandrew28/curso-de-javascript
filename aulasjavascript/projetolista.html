@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./projetolista.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@6.5.95/css/materialdesignicons.min.css">
+    <title>Lista de Tarefas</title> 
+</head>
+
+<body>
+    <style>
+        .inicio {
+            background-color: rgb(26, 169, 194);
+            width: 100px;
+            padding: 10px;
+        }
+    </style>
+
+    <center>
+        <h1>LISTA DE TAREFAS</h1>
+        <header>
+            <input style="padding: 10px; width: 300px; font: size 5px" type="text" id='tarefa' placeholder="digite sua tarefa">
+            <button id = 'botaozinho' onclick="adicionarTarefa()" class="inicio">Adicionar</button>
+        </header>
+    </center>
+    <main id="areaLista">
+        <div class="item">
+            <div class="item-icone">
+              <i class="mdi mdi-circle-outline"></i>
+
+            </div>
+            <div class="item-nome">
+            Teste de Tarefa
+
+            </div>
+            <div class="item-botao">
+    
+            <button class="delete"><i class="mdi mdi-delete"></i>Deletar</button>
+            </div>                 
+             
+        </div>
+        <div class="item-feito">
+            <div class="item-icone">
+              <i class="mdi mdi-check-circle"></i>
+
+            </div>
+            <div class="item-nomeescrito">
+            Teste de Tarefa
+
+            </div>
+            <div class="item-botaoclicado">
+    
+            <button class="deleteaposclicar"><i class="mdi mdi-delete"></i>Deletar</button>
+            </div>
+        
+        </div>
+
+
+    </main>
+
+    <script src="./projetolista.js"></script>
+</body>
+
+</html>
