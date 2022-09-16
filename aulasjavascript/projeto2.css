@@ -76,7 +76,7 @@ h1 {
   }
 .item.clicado .item-nome {
   text-decoration: line-through;
-  color: gray;
+  color: black;
 }
 
 .item.clicado .item-botao {
